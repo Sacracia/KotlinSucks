@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2a4fc9d-0ae3-4661-aef1-81774d3abfc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ArraysTasks.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/BaseTasks.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ClassTasks.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CollectionsTasks.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +28,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2YcGfHi5BTT2aBHFuCNASnINgdl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,7 +59,7 @@
       <updated>1700817558805</updated>
       <workItem from="1700817559893" duration="987000" />
       <workItem from="1700819100801" duration="1487000" />
-      <workItem from="1700936315294" duration="3001000" />
+      <workItem from="1700936315294" duration="7399000" />
     </task>
     <servers />
   </component>
