@@ -1,20 +1,20 @@
 import kotlin.random.Random
 
-open class Pet() {
-    val name: String = ""
+open class Pet {
+    val name: String = "name"
 
     override fun toString(): String {
         return ""
     }
 }
 
-class Cat() : Pet() {
+class Cat : Pet() {
     override fun toString(): String {
         return "MEOW"
     }
 }
 
-class Dog() : Pet() {
+class Dog : Pet() {
     override fun toString(): String {
         return "BARK"
     }
@@ -34,7 +34,18 @@ class PetContainer<T : Pet>() {
     }
 }
 
+class Vet<in T: Pet> {
+    fun checkUp(pet: T) {
+        if (Random.nextBoolean()) {
+            println("Животное здорово")
+        } else {
+            println("Животное умерло")
+        }
+    }
+}
+
 fun main() {
+    val vet : Vet<Pet> = Vet()
     val container: PetContainer<Pet> = PetContainer()
     for (i in 1..Random.nextInt(11)) {
         container.putIntoContainer(Cat()) //Cats
@@ -51,4 +62,5 @@ fun main() {
     else {
         println("Вы не узнали своего питомца!")
     }
+    vet.checkUp(rnd)
 }
